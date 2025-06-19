@@ -204,7 +204,7 @@ return {
   surface = { "elixirls", "lexical", "nextls" },
   svelte = { "biome", "emmet_language_server", "emmet_ls", "eslint", "htmx", "svelte", "tailwindcss", "unocss" },
   svg = { "lemminx" },
-  swift = { "harper_ls" },
+  swift = { "harper_ls", "sourcekit" },
   systemd = { "systemd_ls" },
   systemverilog = { "hdl_checker", "svlangserver", "svls", "verible" },
   teal = { "teal_ls" },
