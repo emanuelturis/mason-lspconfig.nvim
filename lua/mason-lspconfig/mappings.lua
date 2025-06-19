@@ -8,6 +8,7 @@ function M.get_mason_map()
     local package_to_lspconfig = {}
     for _, pkg_spec in ipairs(registry.get_all_package_specs()) do
         local lspconfig = vim.tbl_get(pkg_spec, "neovim", "lspconfig")
+        print(vim.inspect(pkg_spec.name))
         if lspconfig then
             package_to_lspconfig[pkg_spec.name] = lspconfig
         end
